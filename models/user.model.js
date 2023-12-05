@@ -3,9 +3,9 @@ const mysql = require('mysql');
 // Create a MySQL connection pool
 const pool = mysql.createPool({
   connectionLimit: 10,
-  host: '34.101.216.35',
-  user: 'root',
-  password: '5231',
+  host: 'ip in cloud sql',
+  user: 'user-root',
+  password: 'user-pw',
   database: 'spicify_logreg',
 });
 
