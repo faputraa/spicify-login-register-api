@@ -7,9 +7,9 @@ const unless = require('express-unless');
 const app = express(); 
 
 const connection = mysql({
-    host: '34.101.216.35',
-    user: 'root',
-    password: '5231',
+    host: 'ip cloud sql',
+    user: 'user-root',
+    password: 'pw',
     database: 'spicify_logreg'
 });
 
